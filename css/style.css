@@ -1,0 +1,300 @@
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+nav ul li{
+    list-style-type: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-family: "Lato";
+    color: rgb(77, 73, 89);
+    font-weight: bold;
+    line-height: 1.2;
+    cursor: pointer;
+}
+.header_image img{
+  width: 100%;
+  height: 100%;
+}
+.section_about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+}
+h2, p{
+    text-align: center;
+    font-family: "Lato";
+    width: 70%;
+}
+h2{
+  font-size: 18px; 
+  color: rgb(53, 55, 56);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+p{
+  font-size: 16px;
+  color: rgb(132, 135, 137);
+  line-height: 1.875;
+}
+section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.section_bike01, .section_bike02, .section_bike03{
+    flex-wrap: wrap;
+}
+.section_bike01 div:first-child {
+    background-image: url(../img/bike01_logo.png), url(../img/bike01_img2.png);
+    background-repeat: no-repeat, no-repeat;
+    background-size: auto, cover;
+    background-position: center center, top left;
+    width: 70%;
+}
+.section_bike01 div:last-child{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    width:30%;
+}
+.section_bike01 div:last-child img:last-child{
+    width:100%;
+}
+.section--icon{
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+}
+.section_bike02 div:last-child{
+    background-image: url(../img/bike02_logo.png), url(../img/bike02_img.png);
+    background-repeat: no-repeat, no-repeat;
+    background-size: auto, cover;
+    background-position: center center, top left;
+    width: 67%;
+}
+.section_bike02 div:first-child{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:33%;
+}
+.section_bike02 div:first-child img:last-child{
+    width:100%;
+}
+.section_bike03 div:first-child{
+    background-image: url(../img/bike03_logo.png), url(../img/bike03_img.png);
+    background-repeat: no-repeat, no-repeat;
+    background-size: auto, auto;
+    background-position: center center, top left;
+    width: 33%;
+}
+.section_bike03 div:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    width:33%;
+}
+.section_bike03 div:nth-child(2) img:last-child{
+    width:100%;
+}
+.section_bike03 div:last-child{
+    background-image: url(../img/bike03_img2.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: 33%;
+}
+
+.section_twitter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}
+.section_twitter h2{
+      font-size: 18px;
+      font-family: "Lato";
+      color: rgb(53, 55, 56);
+      font-weight: bold;
+      line-height: 1.2;
+      text-align: center;
+}
+.section_twitter p+span{
+      font-size: 24px;
+      font-family: "Lato";
+      color: rgb(132, 135, 137);
+      font-style: italic;
+      line-height: 1.417;
+      text-align: center;
+}
+
+.section_shop{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.section_shop img {
+    margin: 0;
+    padding: 0;
+}
+.section_shop--container{
+    width:33%;
+}
+.section_shop--container1{
+    width: 34%;
+}
+.section_shop--container img{
+    width: 100%;
+}
+.section_shop--container:nth-child(2) img, .section_shop--subcontainer1 img{
+    width: 50%;
+}
+.section_shop--container img:hover{
+    background-image:url(../img/shop_logo.png), url(../img/shop_bg.png);
+    background-repeat: no-repeat, no-repeat;
+    background-size:auto, cover;
+    opacity: 0.3;
+    cursor: pointer;
+}
+.section_shop--container1, .section_shop--container3{
+    display: flex;
+    flex-direction: column;
+}
+.section_shop--subcontainer1{
+    display: flex;
+    flex-direction: row;
+}
+.section_shop--container2{
+    display: flex;
+    flex-direction: row;
+}
+.article_shop--button{
+    background-image: url(../img/shop_discover_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    width:100%;
+}
+.article_shop--button div{
+  font-size: 14px;
+  font-family: "Lato";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid white;
+  cursor: pointer;
+}
+.footer_section-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:300px;
+    width:100%;
+}
+.footer_section-form p{
+   font-size: 24px;
+   font-family: "Lato";
+   color: rgb(132, 135, 137);
+   font-style: italic;
+   line-height: 1.417;
+   text-align: center;
+}
+.footer_section-form form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.footer_section-form input[type=text]{
+    height:30px;
+    width:100%;
+    font-size: 20px;
+    font-family: "Lato";
+    color: rgba(146, 146, 146, 0.502);
+    font-style: italic;
+    line-height: 1.2;
+    text-align: left;
+}
+.footer_section-form input[type=button]{
+    padding: 4px;
+    width: 30%;
+    font-size: 24px;
+    font-family: "Lato";
+    color: rgb(255, 255, 255);
+    line-height: 1;
+    text-align: center;
+    background-color: rgb(100, 194, 158);
+    cursor: pointer;
+}
+
+.footer-section-contacts{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+}
+.footer-section_address{
+  font-size: 16px;
+  font-family: "Lato";
+  color: rgb(132, 135, 137);
+  font-weight: bold;
+  line-height: 1.117;
+  text-align: left;
+}
+.footer-section_icons-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.footer-section_icons-wrapper img{
+    cursor: pointer;
+    margin-right: 5px;
+}
+.footer-section_copywrite{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.footer-section_copywrite p{
+  font-size: 14px;
+  font-family: "Lato";
+  color: rgb(132, 135, 137);
+  font-style: italic;
+  line-height: 1.286;
+  text-align: right;
+}
+
+@media screen and (max-width: 800px){
+    .section_bike01 div,  .section_bike02 div, .section_bike03 div{
+        width:100%!important;
+    }
+    .section_shop--container{
+        width:100%!important;
+    }
+    .footer-section-contacts{
+        flex-direction: column;
+    }
+    .footer-section_address{
+        text-align: center;
+    }
+}
