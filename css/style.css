@@ -289,7 +289,7 @@ section{
         width:100%!important;
     }
     .section_shop--container{
-        width:100%!important;
+        width:100%;
     }
     .footer-section-contacts{
         flex-direction: column;
